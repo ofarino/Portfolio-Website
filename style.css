@@ -162,13 +162,21 @@ body {
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
+    min-height: 60vh;
+    text-align: center;
+    gap: 0;
+}
+
+.hero-text {
+    width: 100%;
+    text-align: center;
 }
 
 .hero-title {
@@ -207,6 +215,8 @@ body {
     display: flex;
     gap: 1rem;
     padding: 0 1rem;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .btn {
@@ -660,8 +670,7 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
+        padding: 0 1rem;
     }
     
     .hero-title {
