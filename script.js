@@ -128,22 +128,22 @@ function initCursorTrail() {
     });
 }
 
-// Skill tag hover effects
-document.addEventListener('DOMContentLoaded', function() {
-    const skillTags = document.querySelectorAll('.skill-tag');
-    
-    skillTags.forEach(tag => {
-        tag.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.1) rotate(2deg)';
-            this.style.boxShadow = '0 5px 15px rgba(0, 212, 255, 0.4)';
-        });
-        
-        tag.addEventListener('mouseleave', function() {
-            this.style.transform = '';
-            this.style.boxShadow = '';
-        });
-    });
-});
+// Skill tag hover effects - DISABLED for less movement
+// document.addEventListener('DOMContentLoaded', function() {
+//     const skillTags = document.querySelectorAll('.skill-tag');
+//     
+//     skillTags.forEach(tag => {
+//         tag.addEventListener('mouseenter', function() {
+//             this.style.transform = 'scale(1.1) rotate(2deg)';
+//             this.style.boxShadow = '0 5px 15px rgba(0, 212, 255, 0.4)';
+//         });
+//         
+//         tag.addEventListener('mouseleave', function() {
+//             this.style.transform = '';
+//             this.style.boxShadow = '';
+//         });
+//     });
+// });
 
 // Add Easter egg - Konami code
 let konamiCode = [];

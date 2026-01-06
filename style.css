@@ -405,7 +405,7 @@ section {
 }
 
 .detail-item:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
 }
 
@@ -439,11 +439,11 @@ section {
     padding: 2rem;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 .skill-category:hover {
-    transform: translateY(-10px);
+    /* transform: translateY(-10px); */
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -513,7 +513,7 @@ section {
 }
 
 .project-cards:hover {
-    transform: translateY(-15px) scale(1.02);
+    /* transform: translateY(-15px) scale(1.02); */
     box-shadow: 0 25px 50px rgba(0, 212, 255, 0.2);
     border-color: var(--primary-color);
 }
@@ -707,7 +707,7 @@ section {
 }
 
 .social-btn:hover {
-    transform: translateX(10px);
+    /* transform: translateX(10px); */
     background: var(--gradient-tech);
     box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
 }
